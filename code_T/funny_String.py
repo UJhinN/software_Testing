@@ -1,4 +1,4 @@
-def funnyString(s):
+def funny_String(s):
     s1 = [ord(i) for i in s]
     s2 = [s1[i] for i in range(len(s1)-1,-1,-1)]
 
