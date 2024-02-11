@@ -259,13 +259,13 @@ class Funny_or_not(unittest.TestCase):
         emotion = funny_String(text)
         self.assertEqual(emotion,'Not Funny')
 
-    def test_give_focus(self):
-        text = 'focus'
+    def test_give_game(self):
+        text = 'game'
         emotion = funny_String(text)
         self.assertEqual(emotion,'Not Funny')
     
-    def test_give_Peeranat(self):
-        text = 'Peeranat'
+    def test_give_Natdanai(self):
+        text = 'Natdnai'
         emotion = funny_String(text)
         self.assertEqual(emotion,'Not Funny')
 
