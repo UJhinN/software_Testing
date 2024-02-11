@@ -20,17 +20,17 @@ class TwoCharecterTest(unittest.TestCase):
     def test_2_char_my_name(self):
         text = 'Natdanai Chookool'
         result = alternate(text)
-        self.assertEqual(result,4)
+        self.assertEqual(result,2)
     
     def test_2_char_my_specialName(self):
         text = 'Ga(u$'
         result = alternate(text)
         self.assertEqual(result,2)
     
-    def test_2_char_Ujhin(self):
-        text = 'Ujhin'
+    def test_2_char_uhjn(self):
+        text = 'ujhin'
         result = alternate(text)
-        self.assertEqual(result,4)
+        self.assertEqual(result,2)
     
     def test_2_char_specialChar1(self):
         text = '###########'
