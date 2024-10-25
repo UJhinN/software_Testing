@@ -18,6 +18,6 @@ git clone <repo-url>
   - Navigate to the directory containing the project files.
   - Run the Testing file:
 ```Copy code
-py -m unittest -v .\Test_Code\[filename].py
+py -m unittest -v .\tests\[filename].py
 ```
 6610110475 # software_Testing
